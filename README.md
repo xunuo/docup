@@ -1,6 +1,6 @@
-# docup v0.0.1
+# Docup
 
-A simple javascript to Markdown/HTML documentation generator.
+Another simple javascript to Markdown/HTML documentation generator.
 
 ## Usage
 
