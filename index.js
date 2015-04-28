@@ -21,7 +21,7 @@ function docup(options) {
     'hash': 'default',
     'lang': 'js',
     'title': path.basename(options.path) + ' API documentation',
-    'toc': 'properties'
+    'toc': 'category'
   });
 
   if (!options.path || !options.url) {

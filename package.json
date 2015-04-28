@@ -6,6 +6,8 @@
   "repository": "xunuo/docup",
   "bin": "bin/docup",
   "dependencies" : {
-    "lodash": "^3.0.0"
+    "lodash": "^3.0.0",
+    "showdown" : "~0.5.0",
+    "ejs" : "~2.3.1"
   }
 }
