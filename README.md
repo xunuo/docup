@@ -2,6 +2,10 @@
 
 Another simple javascript to Markdown/HTML documentation generator.
 
+## Snapshots
+
+![style-default](http://xunuo.com/docup/master/snapshots/style-default.png)
+
 ## Usage
 
 ```js
