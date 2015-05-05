@@ -16,3 +16,5 @@ var markdown = docup({
   'url': 'https://github.com/username/project/blob/master/my.js'
 });
 ```
+
+> more in samples/run.sh :)
