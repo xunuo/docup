@@ -14,13 +14,17 @@ npm install docup -g
 
 ## Usage
 
-- bin  
+- with gulp
+
+    [gulp-docup](https://www.npmjs.com/package/gulp-docup)
+    
+- with bin  
   
 ```
 docup ./sample.js ./output/sample.html --title="sample.js document" --type=html --toc=categories --codeUrl=https://github.com/username/project/blob/master/my.js
 ```
 
-- api  
+- with api  
 
 ```js
 var docup = require('docup');
@@ -39,11 +43,8 @@ var markdown = docup({
 });
 ```
 
-- gulp
 
-    [gulp-docup](https://www.npmjs.com/package/gulp-docup)
-    
-    
+
 ## JS Sample
 
 ```js
