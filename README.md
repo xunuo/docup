@@ -35,4 +35,4 @@ var markdown = docup({
 
 - gulp
 
-> [gulp-docup](https://github.com/xunuo/gulp-docup)
+> [gulp-docup](https://www.npmjs.com/package/gulp-docup)
