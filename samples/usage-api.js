@@ -15,7 +15,10 @@ var html = docup({
   'path': './sample.js',
   // code highlight url, github file url etc.
   'url': 'https://github.com/username/project/blob/master/my.js',
-  'type' : 'html'
+  // type of output
+  'type' : 'html',
+  // topic group type
+  'toc' : 'categories'
 });
 
 console.log(html);

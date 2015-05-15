@@ -15,7 +15,11 @@ var markdown = docup({
   // target
   'path': filepath,
   // code highlight url, github file url etc.
-  'url': 'https://github.com/username/project/blob/master/my.js'
+  'url': 'https://github.com/username/project/blob/master/my.js',
+  // type of output
+  'type' : 'html',
+  // topic group type
+  'toc' : 'categories'
 });
 ```
 
