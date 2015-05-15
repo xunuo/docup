@@ -1,13 +1,23 @@
 {
   "name": "docup",
   "description": "A simple javascript to Markdown/HTML documentation generator :)",
+  "keywords": [
+    "javascript",
+    "document",
+    "api",
+    "generator"
+  ],
   "author": "xunuo <i@xunuo.com>",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "repository": "xunuo/docup",
-  "bin": "bin/docup",
+  "bin": {
+    "docup": "bin/docup"
+  },
   "dependencies" : {
     "lodash": "^3.0.0",
     "showdown" : "~0.5.0",
     "ejs" : "~2.3.1"
-  }
+  },
+  "analyze": true,
+  "license": "MIT"
 }

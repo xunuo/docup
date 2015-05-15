@@ -6,6 +6,10 @@ Another simple javascript to Markdown/HTML documentation generator (NodeJS).
 
 ![style-default](http://xunuo.com/docup/master/snapshots/style-default.png)
 
+## install
+
+`npm install docup -g`
+
 ## Usage
 
 - bin  
