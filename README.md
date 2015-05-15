@@ -8,12 +8,14 @@ Another simple javascript to Markdown/HTML documentation generator (NodeJS).
 
 ## Usage
 
-> bin
+- bin  
+  
 ```
 ../bin/docup ./sample.js ./output/sample.html type=html toc=categories
 ```
 
-> API
+- API  
+
 ```js
 var docup = require('docup');
 
