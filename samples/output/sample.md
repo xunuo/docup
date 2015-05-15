@@ -54,7 +54,7 @@
 
 
 ### <a id="anotherPropertie"></a>`anotherPropertie`
-<a href="#anotherPropertie">#</a> [&#x24C8;](http://YourCodeSourceUrl#L28 "View in source")
+<a href="#anotherPropertie">#</a> [&#x24C8;](##L28 "View in source")
 
 (boolean): Another Propertie
 
@@ -71,7 +71,7 @@
 
 
 ### <a id="inSamplePropertie"></a>`inSamplePropertie`
-<a href="#inSamplePropertie">#</a> [&#x24C8;](http://YourCodeSourceUrl#L17 "View in source")
+<a href="#inSamplePropertie">#</a> [&#x24C8;](##L17 "View in source")
 
 (string): Another Propertie in samplePropertie
 
@@ -88,7 +88,7 @@
 
 
 ### <a id="sampleFunction"></a>`sampleFunction(args)`
-<a href="#sampleFunction">#</a> [&#x24C8;](http://YourCodeSourceUrl#L53 "View in source")
+<a href="#sampleFunction">#</a> [&#x24C8;](##L53 "View in source")
 
 A Sample Function  
 and with markdown: __Bold Text__
@@ -129,7 +129,7 @@ sampleFunction({
 
 
 ### <a id="samplePropertie"></a>`samplePropertie`
-<a href="#samplePropertie">#</a> [&#x24C8;](http://YourCodeSourceUrl#L10 "View in source")
+<a href="#samplePropertie">#</a> [&#x24C8;](##L10 "View in source")
 
 (Object): A Sample Propertie
 

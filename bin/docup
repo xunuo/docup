@@ -69,10 +69,10 @@ if (
     'Usage:',
     '  docup inputFile.js outputFile.md [options]',
     'Options:',
-    '  title="title"               The title of the API documentation.',
-    '  toc="categories|properties" The chosen method to generate the TOC.',
-    '  type="markdown|html" The chosen document type to generate, default is markdown',
-    '  codeUrl="url"               The URL of the input file to use as a link, may your code\'s github url.'
+    '  --title="title"               The title of the API documentation.',
+    '  --toc="categories|properties" The chosen method to generate the TOC.',
+    '  --type="markdown|html" The chosen document type to generate, default is markdown',
+    '  --codeUrl="url"               The URL of the input file to use as a link, may your code\'s github url.'
   ].join('\n'));
   process.exit(1);
 }
@@ -81,12 +81,12 @@ fileName = path.join(cwd, fileName);
 outputFile = path.join(cwd, outputFile);
 
 var options = {
-  'hash': getOption('hash'),
+  'hash': getOption('--hash'),
   'path': fileName,
-  'title': getOption('title'),
-  'toc': getOption('toc'),
-  'codeUrl': getOption('codeUrl') ? getOption('codeUrl') : '#',
-  'type' : getOption('type')
+  'title': getOption('--title'),
+  'toc': getOption('--toc'),
+  'codeUrl': getOption('--codeUrl') ? getOption('--codeUrl') : '#',
+  'type' : getOption('--type')
 };
 
 var output = docup(options);
