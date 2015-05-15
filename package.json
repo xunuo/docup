@@ -8,7 +8,7 @@
     "generator"
   ],
   "author": "xunuo <i@xunuo.com>",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "repository": "xunuo/docup",
   "bin": {
     "docup": "bin/docup"
