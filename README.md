@@ -14,7 +14,7 @@ Another simple javascript to Markdown/HTML documentation generator (NodeJS).
 ../bin/docup ./sample.js ./output/sample.html type=html toc=categories
 ```
 
-- API  
+- api  
 
 ```js
 var docup = require('docup');
@@ -33,4 +33,6 @@ var markdown = docup({
 });
 ```
 
-> more in samples/run.sh :)
+- gulp
+
+> [gulp-docup](https://github.com/xunuo/gulp-docup)
