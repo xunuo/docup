@@ -12,7 +12,9 @@ Another simple javascript to Markdown/HTML documentation generator.
 var docup = require('docup');
 
 var markdown = docup({
+  // target
   'path': filepath,
+  // code highlight url, github file url etc.
   'url': 'https://github.com/username/project/blob/master/my.js'
 });
 ```

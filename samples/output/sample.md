@@ -1,4 +1,4 @@
-# sample.js API documentation
+# sample.js documentation
 
 
 

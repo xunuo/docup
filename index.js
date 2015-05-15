@@ -20,12 +20,12 @@ function docup(options) {
   options = _.defaults(options || {}, {
     'hash': 'default',
     'lang': 'js',
-    'title': path.basename(options.path) + ' API documentation',
+    'title': path.basename(options.path) + ' documentation',
     'toc': 'category'
   });
 
   if (!options.path || !options.url) {
-    throw new Error('Path and URL must be specified');
+    throw new Error('Path and code highlight URL must be specified');
   }
   return generator(fs.readFileSync(options.path, 'utf8'), options);
 }
