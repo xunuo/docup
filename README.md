@@ -1,6 +1,6 @@
 # Docup
 
-Another simple javascript to Markdown/HTML documentation generator.
+Another simple javascript to Markdown/HTML documentation generator (NodeJS).
 
 ## Snapshots
 
@@ -8,17 +8,25 @@ Another simple javascript to Markdown/HTML documentation generator.
 
 ## Usage
 
+> bin
+```
+../bin/docup ./sample.js ./output/sample.html type=html toc=categories
+```
+
+> API
 ```js
 var docup = require('docup');
 
 var markdown = docup({
-  // target
+  // path the js file target.
   'path': filepath,
-  // code highlight url, github file url etc.
-  'url': 'https://github.com/username/project/blob/master/my.js',
-  // type of output
+  // [title]
+  'title' : 'a js file document',
+  // [url] code highlight url, github file url etc.
+  'codeUrl': 'https://github.com/username/project/blob/master/my.js',
+  // [type] type of output
   'type' : 'html',
-  // topic group type
+  // [toc] type of topic group
   'toc' : 'categories'
 });
 ```

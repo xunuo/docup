@@ -24,8 +24,8 @@ function docup(options) {
     'toc': 'category'
   });
 
-  if (!options.path || !options.url) {
-    throw new Error('Path and code highlight URL must be specified');
+  if (!options.path) {
+    throw new Error('JS file path must be specified');
   }
   return generator(fs.readFileSync(options.path, 'utf8'), options);
 }
