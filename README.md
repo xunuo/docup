@@ -8,7 +8,9 @@ Another simple javascript to Markdown/HTML documentation generator (NodeJS).
 
 ## install
 
-`npm install docup -g`
+```
+npm install docup -g
+```
 
 ## Usage
 
@@ -39,4 +41,4 @@ var markdown = docup({
 
 - gulp
 
-> [gulp-docup](https://www.npmjs.com/package/gulp-docup)
+    [gulp-docup](https://www.npmjs.com/package/gulp-docup)
