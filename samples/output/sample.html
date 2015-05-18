@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>jsdoc from docUp</title>
+    <title>sample.js document</title>
     <style>
         body, h1, h2, html, p {
             margin: 0;
@@ -347,6 +347,20 @@
                 margin-left: 20%;
                 padding-top: 3.5em
             }
+            
+            #docs .toc-container:after, #docs .doc-container:after{
+                display: block;
+                clear: both;
+                content: '';
+                position: fixed;
+                width: 100%;
+                z-index: 100;
+                pointer-events: none;
+                height: 50px;
+                bottom: 0;
+                background: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(#fff));
+                opacity: 1
+            }
 
             #docs .doc-container .first-heading {
                 margin-top: 0
@@ -534,7 +548,7 @@
 </head>
 <body>
 
-    <h1 id="jsdocfromdocup">jsdoc from docUp</h1>
+    <h1 id="samplejsdocument">sample.js document</h1>
 
 <div class="toc-container">
 

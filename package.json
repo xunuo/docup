@@ -1,5 +1,6 @@
 {
   "name": "docup",
+  "version": "0.2.10",
   "description": "A simple javascript to Markdown/HTML documentation generator :)",
   "keywords": [
     "javascript",
@@ -8,7 +9,6 @@
     "generator"
   ],
   "author": "xunuo <i@xunuo.com>",
-  "version": "0.2.9",
   "repository": "xunuo/docup",
   "bin": {
     "docup": "bin/docup"
